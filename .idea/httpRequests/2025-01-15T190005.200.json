@@ -1,0 +1,250 @@
+{
+  "authorities": [
+    {
+      "authority": "SCOPE_email"
+    },
+    {
+      "authority": "default-roles-super-realm"
+    },
+    {
+      "authority": "offline_access"
+    },
+    {
+      "authority": "uma_authorization"
+    },
+    {
+      "authority": "ADMIN"
+    },
+    {
+      "authority": "USER"
+    },
+    {
+      "authority": "SCOPE_profile"
+    }
+  ],
+  "details": {
+    "remoteAddress": "127.0.0.1",
+    "sessionId": "75D0CFE9A60E8C99A2A0FA2755E59931"
+  },
+  "authenticated": true,
+  "principal": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpMWQ5al85VTFJVU9wMmpFYXVtbEpuTkNzQjhsM254eGlVRkVnbkp0b08wIn0.eyJleHAiOjE3MzY5NjQyNzYsImlhdCI6MTczNjk2Mzk3NiwianRpIjoiMWVkNjUwZWMtMjE3OC00MWIzLTk5ZDYtMzZmYzQxZTg5MjI1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo5MDkwL3JlYWxtcy9zdXBlci1yZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI2ZWNlYWI4MS1jZmFmLTQyZDMtOWY0Zi00NmEzMWM3ZDUyYWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrZXljbG9hay1jbGllbnQiLCJzaWQiOiI3MWYzODNlOS1kZWE0LTQzMjctOWFiZS1kOTVjNzQ1MWNmNzIiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1zdXBlci1yZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJBRE1JTiIsIlVTRVIiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJZYXNzaXIgSmVyYWlkaSIsInByZWZlcnJlZF91c2VybmFtZSI6Inlhc3NpcmpyIiwiZ2l2ZW5fbmFtZSI6Illhc3NpciIsImZhbWlseV9uYW1lIjoiSmVyYWlkaSIsImVtYWlsIjoieWFzc2lyQGdtYWlsLmNvbSJ9.JwGynlZVO48OXFa7o5TJNo9DJIu8Sga02RHDm69qumoxv4r29OB8JeFMQuXYaZMo5HMUf5MrxyxnTO6fCMQp-hgk2wRbaxa8VWUuBrYNvJRTm1Nx66i4qgYJFvNL-viHNQrmKanjv6JuZnFJH2VTvnvmNe1j-BQUVAQNlTproPebanUTBQ3cUbd_sYTuOyyhu0JJy4WCPA-xFFqT_FMz9DYpgScTsTdEKadyrxFnv6GMSEC22GI4_4kcdnePviHKjmAzB8-WaI_IZThD0fGcarGOabMNBLseqDplK0eIz6TNUkJfuMdOBAiyXRHQhbLF6VWQafyE8NEh3AvbCPmO_A",
+    "issuedAt": "2025-01-15T17:59:36Z",
+    "expiresAt": "2025-01-15T18:04:36Z",
+    "headers": {
+      "kid": "i1d9j_9U1IUOp2jEaumlJnNCsB8l3nxxiUFEgnJtoO0",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "6eceab81-cfaf-42d3-9f4f-46a31c7d52aa",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        ""
+      ],
+      "iss": "http://localhost:9090/realms/super-realm",
+      "typ": "Bearer",
+      "preferred_username": "yassirjr",
+      "given_name": "Yassir",
+      "sid": "71f383e9-dea4-4327-9abe-d95c7451cf72",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "default-roles-super-realm",
+          "offline_access",
+          "uma_authorization",
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "azp": "keycloak-client",
+      "scope": "email profile",
+      "name": "Yassir Jeraidi",
+      "exp": "2025-01-15T18:04:36Z",
+      "iat": "2025-01-15T17:59:36Z",
+      "family_name": "Jeraidi",
+      "jti": "1ed650ec-2178-41b3-99d6-36fc41e89225",
+      "email": "yassir@gmail.com"
+    },
+    "id": "1ed650ec-2178-41b3-99d6-36fc41e89225",
+    "issuer": "http://localhost:9090/realms/super-realm",
+    "audience": [
+      "account"
+    ],
+    "notBefore": null,
+    "subject": "6eceab81-cfaf-42d3-9f4f-46a31c7d52aa"
+  },
+  "credentials": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpMWQ5al85VTFJVU9wMmpFYXVtbEpuTkNzQjhsM254eGlVRkVnbkp0b08wIn0.eyJleHAiOjE3MzY5NjQyNzYsImlhdCI6MTczNjk2Mzk3NiwianRpIjoiMWVkNjUwZWMtMjE3OC00MWIzLTk5ZDYtMzZmYzQxZTg5MjI1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo5MDkwL3JlYWxtcy9zdXBlci1yZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI2ZWNlYWI4MS1jZmFmLTQyZDMtOWY0Zi00NmEzMWM3ZDUyYWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrZXljbG9hay1jbGllbnQiLCJzaWQiOiI3MWYzODNlOS1kZWE0LTQzMjctOWFiZS1kOTVjNzQ1MWNmNzIiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1zdXBlci1yZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJBRE1JTiIsIlVTRVIiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJZYXNzaXIgSmVyYWlkaSIsInByZWZlcnJlZF91c2VybmFtZSI6Inlhc3NpcmpyIiwiZ2l2ZW5fbmFtZSI6Illhc3NpciIsImZhbWlseV9uYW1lIjoiSmVyYWlkaSIsImVtYWlsIjoieWFzc2lyQGdtYWlsLmNvbSJ9.JwGynlZVO48OXFa7o5TJNo9DJIu8Sga02RHDm69qumoxv4r29OB8JeFMQuXYaZMo5HMUf5MrxyxnTO6fCMQp-hgk2wRbaxa8VWUuBrYNvJRTm1Nx66i4qgYJFvNL-viHNQrmKanjv6JuZnFJH2VTvnvmNe1j-BQUVAQNlTproPebanUTBQ3cUbd_sYTuOyyhu0JJy4WCPA-xFFqT_FMz9DYpgScTsTdEKadyrxFnv6GMSEC22GI4_4kcdnePviHKjmAzB8-WaI_IZThD0fGcarGOabMNBLseqDplK0eIz6TNUkJfuMdOBAiyXRHQhbLF6VWQafyE8NEh3AvbCPmO_A",
+    "issuedAt": "2025-01-15T17:59:36Z",
+    "expiresAt": "2025-01-15T18:04:36Z",
+    "headers": {
+      "kid": "i1d9j_9U1IUOp2jEaumlJnNCsB8l3nxxiUFEgnJtoO0",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "6eceab81-cfaf-42d3-9f4f-46a31c7d52aa",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        ""
+      ],
+      "iss": "http://localhost:9090/realms/super-realm",
+      "typ": "Bearer",
+      "preferred_username": "yassirjr",
+      "given_name": "Yassir",
+      "sid": "71f383e9-dea4-4327-9abe-d95c7451cf72",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "default-roles-super-realm",
+          "offline_access",
+          "uma_authorization",
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "azp": "keycloak-client",
+      "scope": "email profile",
+      "name": "Yassir Jeraidi",
+      "exp": "2025-01-15T18:04:36Z",
+      "iat": "2025-01-15T17:59:36Z",
+      "family_name": "Jeraidi",
+      "jti": "1ed650ec-2178-41b3-99d6-36fc41e89225",
+      "email": "yassir@gmail.com"
+    },
+    "id": "1ed650ec-2178-41b3-99d6-36fc41e89225",
+    "issuer": "http://localhost:9090/realms/super-realm",
+    "audience": [
+      "account"
+    ],
+    "notBefore": null,
+    "subject": "6eceab81-cfaf-42d3-9f4f-46a31c7d52aa"
+  },
+  "token": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpMWQ5al85VTFJVU9wMmpFYXVtbEpuTkNzQjhsM254eGlVRkVnbkp0b08wIn0.eyJleHAiOjE3MzY5NjQyNzYsImlhdCI6MTczNjk2Mzk3NiwianRpIjoiMWVkNjUwZWMtMjE3OC00MWIzLTk5ZDYtMzZmYzQxZTg5MjI1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo5MDkwL3JlYWxtcy9zdXBlci1yZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI2ZWNlYWI4MS1jZmFmLTQyZDMtOWY0Zi00NmEzMWM3ZDUyYWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrZXljbG9hay1jbGllbnQiLCJzaWQiOiI3MWYzODNlOS1kZWE0LTQzMjctOWFiZS1kOTVjNzQ1MWNmNzIiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1zdXBlci1yZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJBRE1JTiIsIlVTRVIiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJZYXNzaXIgSmVyYWlkaSIsInByZWZlcnJlZF91c2VybmFtZSI6Inlhc3NpcmpyIiwiZ2l2ZW5fbmFtZSI6Illhc3NpciIsImZhbWlseV9uYW1lIjoiSmVyYWlkaSIsImVtYWlsIjoieWFzc2lyQGdtYWlsLmNvbSJ9.JwGynlZVO48OXFa7o5TJNo9DJIu8Sga02RHDm69qumoxv4r29OB8JeFMQuXYaZMo5HMUf5MrxyxnTO6fCMQp-hgk2wRbaxa8VWUuBrYNvJRTm1Nx66i4qgYJFvNL-viHNQrmKanjv6JuZnFJH2VTvnvmNe1j-BQUVAQNlTproPebanUTBQ3cUbd_sYTuOyyhu0JJy4WCPA-xFFqT_FMz9DYpgScTsTdEKadyrxFnv6GMSEC22GI4_4kcdnePviHKjmAzB8-WaI_IZThD0fGcarGOabMNBLseqDplK0eIz6TNUkJfuMdOBAiyXRHQhbLF6VWQafyE8NEh3AvbCPmO_A",
+    "issuedAt": "2025-01-15T17:59:36Z",
+    "expiresAt": "2025-01-15T18:04:36Z",
+    "headers": {
+      "kid": "i1d9j_9U1IUOp2jEaumlJnNCsB8l3nxxiUFEgnJtoO0",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "6eceab81-cfaf-42d3-9f4f-46a31c7d52aa",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        ""
+      ],
+      "iss": "http://localhost:9090/realms/super-realm",
+      "typ": "Bearer",
+      "preferred_username": "yassirjr",
+      "given_name": "Yassir",
+      "sid": "71f383e9-dea4-4327-9abe-d95c7451cf72",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "default-roles-super-realm",
+          "offline_access",
+          "uma_authorization",
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "azp": "keycloak-client",
+      "scope": "email profile",
+      "name": "Yassir Jeraidi",
+      "exp": "2025-01-15T18:04:36Z",
+      "iat": "2025-01-15T17:59:36Z",
+      "family_name": "Jeraidi",
+      "jti": "1ed650ec-2178-41b3-99d6-36fc41e89225",
+      "email": "yassir@gmail.com"
+    },
+    "id": "1ed650ec-2178-41b3-99d6-36fc41e89225",
+    "issuer": "http://localhost:9090/realms/super-realm",
+    "audience": [
+      "account"
+    ],
+    "notBefore": null,
+    "subject": "6eceab81-cfaf-42d3-9f4f-46a31c7d52aa"
+  },
+  "name": "yassirjr",
+  "tokenAttributes": {
+    "sub": "6eceab81-cfaf-42d3-9f4f-46a31c7d52aa",
+    "resource_access": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    },
+    "email_verified": false,
+    "allowed-origins": [
+      ""
+    ],
+    "iss": "http://localhost:9090/realms/super-realm",
+    "typ": "Bearer",
+    "preferred_username": "yassirjr",
+    "given_name": "Yassir",
+    "sid": "71f383e9-dea4-4327-9abe-d95c7451cf72",
+    "aud": [
+      "account"
+    ],
+    "acr": "1",
+    "realm_access": {
+      "roles": [
+        "default-roles-super-realm",
+        "offline_access",
+        "uma_authorization",
+        "ADMIN",
+        "USER"
+      ]
+    },
+    "azp": "keycloak-client",
+    "scope": "email profile",
+    "name": "Yassir Jeraidi",
+    "exp": "2025-01-15T18:04:36Z",
+    "iat": "2025-01-15T17:59:36Z",
+    "family_name": "Jeraidi",
+    "jti": "1ed650ec-2178-41b3-99d6-36fc41e89225",
+    "email": "yassir@gmail.com"
+  }
+}
