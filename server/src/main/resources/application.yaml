@@ -1,0 +1,21 @@
+spring:
+  application.name: server
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9090/realms/super-realm
+          jwk-set-uri: http://localhost:9090/realms/super-realm/protocol/openid-connect/certs
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/{MYSQL_DB}
+    username: { MYSQL_USER }
+    password: { MYSQL_PASSWORD }
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 1234
