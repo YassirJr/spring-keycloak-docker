@@ -10,7 +10,7 @@ VOLUME /tmp
 EXPOSE 1234
 
 # The application's jar file
-ARG JAR_FILE=target/keycloak-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=./server/target/keycloak-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
 ADD ${JAR_FILE} app.jar
