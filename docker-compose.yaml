@@ -12,7 +12,7 @@ services:
       - "3306:3306"
     restart: always
     healthcheck:
-      test: ["CMD-SHELL", "mysqladmin ping -h localhost"]
+      test: [ "CMD-SHELL", "mysqladmin ping -h localhost" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -45,6 +45,20 @@ services:
     networks:
       - mysql_network
 
+  spring-app:
+    container_name: keycloak-app
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    ports:
+      - "1234:1234"
+    depends_on:
+      - mysql
+    networks:
+      - app_network
+
 networks:
   mysql_network:
+    driver: bridge
+  app_network:
     driver: bridge
